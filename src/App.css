@@ -1,38 +1,74 @@
-.App {
+body{
+  background-color: aliceblue;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  padding-top: 50px;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  padding: 0%;
+  margin: 0%;
+}
+.signup{
+  height: 400px;
+  width: 280px;
+  text-align: center;
+  display: flex;
+  border: 1px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.signin{
+  height: 280px;
+  width: 280px;
+  text-align: center;
+  display: flex;
+  border: 1px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+/* App{
+text-align: center;
+  display: flex;
+  min-height: 100vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-image: linear-gradient(79deg,#fcfced,#fcedfc 48%,#ebf6ff);
+} */
+input {
+  margin: 0.3rem 0;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+}
+.signup-form{
+  margin-top: 2px;
+  background-image: linear-gradient(79deg,#fcfced,#fcedfc 48%,#ebf6ff);
+  padding: 15px;
+  width: 300px;
+  border-radius: 5px;
+}
+.signin-form{
+  margin-top: 2px;
+  background-image: linear-gradient(79deg,#fcfced,#fcedfc 48%,#ebf6ff);
+  padding: 15px;
+  width: 300px;
+  border-radius: 5px;
+}
+label{
+  color: #C7BCA1;
+}
+h2{
+  color: #594545;
+  
+}
+button{
+  background-color: gray;
+  border: none;
+  margin-top: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
